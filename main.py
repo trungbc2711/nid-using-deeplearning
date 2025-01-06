@@ -35,7 +35,7 @@ X_test = X_test.to_numpy()
 encoder = load('config/label_encoder.joblib')
 y_test = encoder.transform(y_test)
 
-loaded_model = keras.models.load_model("models/final_model.keras")
+loaded_model = keras.models.load_model("models/final_model_LSTM.keras")
 
 f1 = f1_score(y_test, y_pred, average="micro")
 print(f"F1-score: {f1:.4f}")
