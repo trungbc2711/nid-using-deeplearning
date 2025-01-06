@@ -1,3 +1,3 @@
 Almost good model for Multiclass Network Attacks Classification using Deep Neural Network :)
 
-P.S: extract LSTM model before using.
+P.S: pls extract LSTM model before using.
